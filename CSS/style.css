@@ -1,0 +1,75 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-image: url("../img/background/bg-head.png");
+    height: 900px;
+    background-position: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.nav-btn{
+    padding-top: 40px;
+}
+
+.btn-1{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 25px;
+}
+
+.btn-2{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #262a34;
+    padding: 25px;
+}
+
+.phone{
+    position: absolute;
+    top: 355px;
+    left: 340px;
+}
+
+.hd{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 300px;
+    padding-top: 200px;
+}
+
+.hd h2{
+    color: #262a34;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content-hd{
+    width: 500px;
+}
+
+.content-hd span{
+    color: white;
+    font-style: italic;
+}
+
+.content-hd p{
+    padding-top: 40px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 70px;
+}
+
+.what{
+    background-color: #262a34;
+    height: 300px;
+    position: relative;
+}
